@@ -1,0 +1,27 @@
+{
+  "name": "express-typescript-boilerplate",
+  "version": "0.0.1",
+  "description": "Typescript + Babel7 + Express = « Minimalist » Express server with Typescript support.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "export NODE_ENV='development' && babel-node --extensions '.ts' src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:c4software/express-typescript-boilerplate.git"
+  },
+  "author": "Valentin Brosseau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "@types/node": "^10.0.8"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.47",
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/preset-stage-3": "^7.0.0-beta.47"
+  }
+}
